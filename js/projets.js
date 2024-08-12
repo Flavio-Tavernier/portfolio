@@ -8,18 +8,37 @@ $(function() {
             }) 
 
             $(this).addClass("padd-increased");
+
+            changeProjetsAffiches($(this).attr("id"));
         })
+
+        
+        
     }) 
 
 
-    function increasePaddBtnRotated(elem) {
-        elem.css("padding-right", "2.5px");
-        elem.css("padding-left", "2.5px");
-    }
+    function changeProjetsAffiches(idOfbutton) {
+        $(".wrapper").html("");
 
-    function decreasePaddBtnRotated(elem) {
-        elem.css("padding-right", "0px");
-        elem.css("padding-left", "0px");
+        switch(idOfbutton) {
+            case 'btn-php' :
+                $(".wrapper").append('<div class="item"><div>php-1</div></div>');
+                break;
+            case 'btn-html-css' :
+                $(".wrapper").append('<div class="item"><div>box-1</div></div> <div class="item"><div>box-1</div></div> <div class="item"><div>box-1</div></div>');
+                break;
+            case 'btn-java' :
+                $(".wrapper").append('<div class="item"><div>box-1</div></div>');
+                break;
+            case 'btn-csharp' :
+                $(".wrapper").append('<div class="item"><div>box-1</div></div> <div class="item"><div>box-1</div></div> <div class="item"><div>box-1</div></div>');
+                break;
+            case 'btn-python' :
+                    $(".wrapper").append('<div class="item"><div>box-1</div></div>');
+                    break;
+            default :
+                console.log("bouton inconnu");
+        }
     }
 
 

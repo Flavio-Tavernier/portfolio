@@ -15,24 +15,22 @@
 </head>
 <body>
     <div id="nav-bar">
-        <a href="index" id="btn-home">Accueil</a>
-        <a href="cv" id="btn-cv">CV</a>
-        <a href="projets" id="btn-projets">Projets</a>
-        <a href="aPropos" id="btn-apropos">Qui suis-je</a>
-        <a href="veille" id="btn-veille">Veille</a>
-        <a href="contact" id="btn-contact">Contact</a>
+        <a class="btn-navbars btn-top-navbar" href="index" id="btn-home">Accueil</a>
+        <a class="btn-navbars btn-top-navbar" href="cv" id="btn-cv">CV</a>
+        <a class="btn-navbars btn-top-navbar" href="projets" id="btn-projets">Projets</a>
+        <a class="btn-navbars btn-top-navbar" href="aPropos" id="btn-apropos">Qui suis-je</a>
+        <a class="btn-navbars btn-top-navbar" href="veille" id="btn-veille">Veille</a>
+        <a class="btn-navbars btn-top-navbar" href="contact" id="btn-contact">Contact</a>
     </div>
 
 
-    <div id="nav-bar-underline">
-
-    </div>
+    <div id="nav-bar-underline"></div>
 
     
 
     
     <script src="../js/bibliotheques/jquery/jquery-3.7.1.slim.min.js"></script>
-
+    
 </body>
 </html>
 

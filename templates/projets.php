@@ -15,56 +15,48 @@ include "header.php";
     <title>Document</title>
 </head>
 <body>
-    Projets
 
 
 
-    <div id="container-projets">
-        <div id="nav-bar-projets">
-            <a id="btn-php" class="btn-rotated"><p>PHP</p></a>
-            <a id="btn-html-css" class="btn-rotated"><p>HTML/CSS</p></a>
-            <a id="btn-java" class="btn-rotated"><p>Java</p></a>
-            <a id="btn-csharp" class="btn-rotated"><p>C#</p></a>
-            <a id="btn-python" class="btn-rotated"><p>Python</p></a>
+        <div id="titre-projets">
+            PROJETS
         </div>
 
-        <div class="wrapper">
-            <div class="item">
-                <div id="generateur-mdp">
-                    box-1
+
+    
+
+    <div id="container-projets-donut">
+
+        <div id="container-projets">
+
+            <div id="nav-bar-projets">
+                <a id="btn-php" class="btn-rotated btn-navbars padd-increased"><p>PHP</p></a>
+                <a id="btn-html-css" class="btn-rotated btn-navbars"><p>HTML/CSS</p></a>
+                <a id="btn-java" class="btn-rotated btn-navbars"><p>Java</p></a>
+                <a id="btn-csharp" class="btn-rotated btn-navbars"><p>C#</p></a>
+                <a id="btn-python" class="btn-rotated btn-navbars"><p>Python</p></a>
+            </div>
+
+
+            <div id="borderline-projects">
+                <div class="wrapper">
+                    <div class="item"><div>php-1</div></div>
                 </div>
             </div>
-            
-            <div class="item">
-                <div>
-                    box-2
-                </div>  
-            </div>
 
-            <div class="item">
-                box-3
-            </div>
 
-            <div class="item">
-                box-4</div>
-            <div class="item">box-5
+        </div>
 
-            </div>
-
-            <div class="item">
-                box-6
-            </div>
+        <div id="container-donut-projets">
+            <canvas id="chart"></canvas>
         </div>
     </div>
-    <p>
-    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur, sed.
-    </p>
 
-    <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur, sed.
-    </p>
+
 
 <script src="../js/projets.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="../js/chart.js"></script>
 </body>
 </html>
 
