@@ -28,6 +28,13 @@
     padding: 20px;
 }
 
+#empeche-survol-souris-donut {
+    width: 30%;
+    height: 580px; /* en px car position absolute */
+    position: absolute;;
+    z-index: 1;
+    background-color: transparent;
+}
 
 
 #container-projets-donut {
