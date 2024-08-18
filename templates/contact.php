@@ -15,6 +15,10 @@ include "header.php";
     <title>Document</title>
 </head>
 <body>
+    <div id="titre-contact">
+        CONTACT
+    </div>
+
     me contacter
 </body>
 </html>

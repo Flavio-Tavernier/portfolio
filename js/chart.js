@@ -81,8 +81,6 @@ $(function () {
 
 
     $(".btn-rotated").click(function () {
-      console.log($(this).attr("id"));
-      
         changeChartHighlight($(this).attr("id"));
     })
 

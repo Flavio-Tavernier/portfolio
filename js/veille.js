@@ -1,17 +1,20 @@
 $(function() {
 
-    getContentForCard("php");
+    getContentForCard("informatique");
 
     $(".btn-rotated").click(function () {
-        let langage = $(this).attr("id").slice(4);
-        getContentForCard(langage);
-    })
+        let domaine = $(this).attr("id").slice(4);
+        getContentForCard(domaine); 
+    }) 
+
+
+
 
 })
 
 
-function getContentForCard(langage) {
-    fetch('langages_projets\\' + langage + '.html')
+function getContentForCard(domaine) {
+    fetch('domaines_veille\\' + domaine + '.html')
         .then(response => {
             if (!response.ok) {
                 throw new Error('Erreur lors du chargement du fichier');
@@ -26,8 +29,3 @@ function getContentForCard(langage) {
             console.error('Erreur:', error);
         });
 }
-
-
-  
-
-

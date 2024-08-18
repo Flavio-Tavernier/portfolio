@@ -19,6 +19,11 @@ include "header.php";
     <title>Document</title>
 </head>
 <body>
+    <div id="titre-accueil">
+        ACCUEIL
+    </div>
+
+
     <div id="container">
         <div id="name">Flavio TAVERNIER</div>
         <div id="description">Étudiant en Développement Informatique,

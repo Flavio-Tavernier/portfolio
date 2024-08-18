@@ -12,10 +12,34 @@ include "header.php";
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style/veille.css">
+    <link rel="stylesheet" href="../style/cardProjets.css">
     <title>Document</title>
 </head>
 <body>
-    Ceci est ma veille informatique
+    <div id="titre-veille">
+        VEILLE
+    </div>
+
+
+    <div class="container-content">
+
+        <div class="nav-bar-content">
+            <a id="btn-informatique" class="btn-rotated btn-navbars padd-increased"><p>Informatique</p></a>
+            <a id="btn-aviation" class="btn-rotated btn-navbars"><p>Aviation</p></a>
+        </div>
+
+
+        <div class="borderline-content">
+            <div class="wrapper">
+
+            </div>      
+        </div>
+
+    </div>
+
+    
+<script src="../js/veille.js"></script>
+<script src="../js/commun.js"></script>
 </body>
 </html>
 

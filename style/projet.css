@@ -6,8 +6,6 @@
 
 
 
-
-
 #titre-projets {
     color: #ffde59;
     font-family: "IBM Plex Mono", monospace;
@@ -98,6 +96,7 @@
     font-family: "IBM Plex Mono", monospace;
     font-weight: 400;
     font-style: normal;
+    cursor: pointer;
 }
 
 #nav-bar-projets > a > p {

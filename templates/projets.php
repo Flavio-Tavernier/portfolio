@@ -12,6 +12,7 @@ include "header.php";
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style/projet.css">
+    <link rel="stylesheet" href="../style/cardProjets.css">
     <title>Document</title>
 </head>
 <body>
@@ -25,11 +26,11 @@ include "header.php";
 
     
 
-    <div id="container-projets-donut">
+    <div class="container-content">
 
         <div id="container-projets">
 
-            <div id="nav-bar-projets">
+            <div class="nav-bar-content">
                 <a id="btn-php" class="btn-rotated btn-navbars padd-increased"><p>PHP</p></a>
                 <a id="btn-html-css" class="btn-rotated btn-navbars"><p>HTML/CSS</p></a>
                 <a id="btn-java" class="btn-rotated btn-navbars"><p>Java</p></a>
@@ -38,13 +39,12 @@ include "header.php";
             </div>
 
 
-            <div id="borderline-projects">
+            <div class="borderline-content">
                 <div class="wrapper">
-                    <div class="item"><div>php-1</div></div>
+ 
                 </div>
             </div>
-
-
+            
         </div>
 
         <div id="container-donut-projets">
@@ -54,11 +54,10 @@ include "header.php";
     </div>
 
 
-
-
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script src="../js/chart.js"></script>
 <script src="../js/projets.js"></script>
+<script src="../js/commun.js"></script>
 </body>
 </html>
 
