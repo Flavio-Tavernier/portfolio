@@ -31,9 +31,9 @@ include "header.php";
 
 
         <div class="borderline-content">
-            <div class="wrapper">
-
-            </div>      
+            <div id="arrow-left" class="arrows arrows-display-none"></div>
+            
+            <div class="wrapper"></div>    
         </div>
 
     </div>

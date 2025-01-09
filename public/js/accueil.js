@@ -5,6 +5,11 @@ $(function() {
         let section = $(this).attr("id").slice(4);
         getContentForCard(section);   
     }) 
+
+    $("#arrow-right").click(function () {
+        console.log("test");
+        
+    })
 })
 
 
@@ -24,4 +29,3 @@ function getContentForCard(section) {
             console.error('Erreur:', error);
         });
 }
-
