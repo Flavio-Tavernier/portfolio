@@ -5,11 +5,6 @@ $(function() {
         let section = $(this).attr("id").slice(4);
         getContentForCard(section);   
     }) 
-
-    $("#arrow-right").click(function () {
-        console.log("test");
-        
-    })
 })
 
 
@@ -23,9 +18,20 @@ function getContentForCard(section) {
         })
         .then(data => {
             manageCardContentToDisplay(data);
+            changePage();
+            
             return data
         })
         .catch(error => {
             console.error('Erreur:', error);
         });
+}
+
+
+
+function changePage() {
+    $("#arrow-right, #arrow-left").click(function() {
+        destinationPage = $(this).attr("destination");
+        getContentForCard(destinationPage)
+    })
 }
