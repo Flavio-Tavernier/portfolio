@@ -1,5 +1,5 @@
 $(function() {
-    getContentForCard("professionnel");
+    getContentForCard("scolaire");
 
     $(".btn-rotated").click(function () {
         let section = $(this).attr("id").slice(4);
