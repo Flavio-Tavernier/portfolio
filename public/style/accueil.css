@@ -8,16 +8,10 @@
 .wrapper {
     width: 100%;
     min-height: 89%;
-    overflow-x: unset !important;
     display: grid;
     grid-template-rows: repeat(2, 50%);
-    grid-template-columns: repeat(5, 1fr); /*TODO:Remettre a 3 quand fini */
+    grid-template-columns: repeat(5, 1fr); TODO:Remettre a 3 quand fini
 }
-
-.wrapper > div {
-    padding: 20px;
-}
-
 
 
 .container-content {
@@ -174,41 +168,6 @@
     flex-direction: row-reverse;
 }
 
-
-
-
-
-
-
-#container-bonaparte, #container-edison {
-    border-right: 2px dotted #ffde59;
-}
-
-.speech-containers-sous-titre, .speech-containers-durees{
-    height: 20%;
-}
-
-.speech-containers-details {
-    height: 60%;
-}
-
-
-
-
-
-/* Partie professionnelle */
-.accueil-titre-containers {
-    display: flex;
-    justify-content: space-around;
-}
-
-
-.logos-structures {
-    width: 20%;
-    height: auto;
-
-    margin: auto;
-}
 
 
 
