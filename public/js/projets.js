@@ -1,6 +1,6 @@
 $(function() {
 
-    getContentForCard("php");
+    getContentForCard("html-css-php");
 
     $(".btn-rotated").click(function () {
         let langage = $(this).attr("id").slice(4);

@@ -31,8 +31,8 @@ include "header.php";
         <div id="container-projets">
 
             <div class="nav-bar-content">
-                <a id="btn-php" class="btn-rotated btn-navbars padd-increased"><p>PHP</p></a>
-                <a id="btn-html-css" class="btn-rotated btn-navbars"><p>HTML/CSS</p></a>
+                <!-- <a id="btn-php" class="btn-rotated btn-navbars padd-increased"><p>PHP</p></a> -->
+                <a id="btn-html-css-php" class="btn-rotated btn-navbars"><p>HTML/CSS/PHP</p></a>
                 <a id="btn-java" class="btn-rotated btn-navbars"><p>Java</p></a>
                 <a id="btn-csharp" class="btn-rotated btn-navbars"><p>C#</p></a>
                 <a id="btn-python" class="btn-rotated btn-navbars"><p>Python</p></a>
@@ -47,15 +47,15 @@ include "header.php";
             
         </div>
 
-        <div id="container-donut-projets">
+        <!-- <div id="container-donut-projets">
             <div id="empeche-survol-souris-donut"></div>
             <canvas id="chart"></canvas>
-        </div>
+        </div> -->
     </div>
 
 
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script src="../js/chart.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="../js/chart.js"></script> -->
 <script src="../js/projets.js"></script>
 <script src="../js/commun.js"></script>
 </body>
