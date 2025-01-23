@@ -18,8 +18,6 @@ function getContentForCard(section) {
         })
         .then(data => {
             manageCardContentToDisplay(data);
-            changePage();
-            
             return data
         })
         .catch(error => {
@@ -28,10 +26,3 @@ function getContentForCard(section) {
 }
 
 
-
-function changePage() {
-    $("#arrow-right, #arrow-left").click(function() {
-        destinationPage = $(this).attr("destination");
-        getContentForCard(destinationPage)
-    })
-}
