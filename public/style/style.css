@@ -9,6 +9,7 @@ body {
 }
 
 
+
 #nav-bar {
     display: flex;
     justify-content: center;
@@ -251,4 +252,11 @@ body {
 
 .speech-containers-sous-titre, .speech-containers-durees {
     height: 20%;
+}
+
+.speech-containers-p {
+    height: 60%;
+
+    display: flex;
+    align-items: center;
 }

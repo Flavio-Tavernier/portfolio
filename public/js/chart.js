@@ -86,7 +86,7 @@ $(function () {
 
 
     function changeChartHighlight(idOfbutton) {
-      let segmentIds = ['php', 'html-css', 'java', 'csharp', 'python'];
+      let segmentIds = ['html-css-php', 'java', 'csharp', 'python'];
       idOfbutton = idOfbutton.slice(4);
       let segmentId = segmentIds.indexOf(idOfbutton);
 

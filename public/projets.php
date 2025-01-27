@@ -47,15 +47,15 @@ include "header.php";
             
         </div>
 
-        <!-- <div id="container-donut-projets">
+        <div id="container-donut-projets">
             <div id="empeche-survol-souris-donut"></div>
             <canvas id="chart"></canvas>
-        </div> -->
+        </div>
     </div>
 
 
-<!-- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script src="../js/chart.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="../js/chart.js"></script>
 <script src="../js/projets.js"></script>
 <script src="../js/commun.js"></script>
 </body>
