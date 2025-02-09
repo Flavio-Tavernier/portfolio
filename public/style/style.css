@@ -280,8 +280,7 @@ body {
 /* 
 * RESPONSIVE POUR TABLET (PEUT ETRE A DEPLACER ?)
 */
-
-@media screen and (min-width: 780px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     .wrapper {
         grid-template-columns: repeat(1, auto)!important;
         grid-template-rows: auto!important;
@@ -330,6 +329,113 @@ body {
 
     #container-backupsentitems {
         border: 0!important;
+    }
+    /* ------ */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+* RESPONSIVE POUR TELEPHONE (PEUT ETRE A DEPLACER ?)
+*/
+@media screen and (max-width: 767px) {
+    #nav-bar {
+        display: none;
+    }
+    body {
+        margin: 0;
+        padding: 10px;
+    }
+
+    .wrapper {
+        grid-template-columns: repeat(1, auto)!important;
+        grid-template-rows: auto!important;
+        grid-auto-flow: initial!important;
+    }
+
+    .container-content {
+        height: auto!important;
+        width: 90vw;
+    }
+
+    .accueil-containers-presentation, .containers-projets {
+        border: 0!important; 
+        border-bottom: 2px dotted #ffde59!important;
+    }
+
+    .nav-bar-content {
+        width: 5%;
+        height: 600px;
+    }
+
+
+
+
+    .accueil-titre-containers > p, .pro-container-texte-titre > p {
+        font-size: 30px!important;
+    }
+
+    .titre-onglets {
+        font-size: 50px!important;
+    }
+
+
+    /*
+    * --- CONCERNE ACCUEIL PRESENTATION ---
+    */
+    #container-img-bachelor, #container-hobbies {
+        grid-column: initial!important;
+        grid-row: initial!important;
+    }
+
+    #container-objectif {
+        border: 0!important;
+    }
+    /* ------*/
+    
+
+
+    /*
+    * --- CONCERNE PROJETS  ---
+    */
+    #container-content-projets {
+        flex-direction: column-reverse;
+    }
+
+    #container-projets {
+        flex-direction: row;
+    }
+
+    #container-backupsentitems {
+        border: 0!important;
+    }
+    
+    .titre-containers > p {
+        font-size: 30px;
     }
     /* ------ */
 }
