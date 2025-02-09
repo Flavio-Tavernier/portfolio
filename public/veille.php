@@ -12,7 +12,7 @@ include "header.php";
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style/veille.css">
-    <link rel="stylesheet" href="../style/cardProjets.css">
+    <link rel="stylesheet" href="../style/accueil.css">
     <title>Document</title>
 </head>
 <body>

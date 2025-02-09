@@ -292,7 +292,7 @@ body {
         height: auto!important;
     }
 
-    .accueil-containers-presentation {
+    .accueil-containers-presentation, .containers-projets {
         border: 0!important; 
         border-bottom: 2px dotted #ffde59!important;
     }
@@ -302,9 +302,8 @@ body {
     }
 
 
-
     /*
-    * --- CONCERNE PRESENTATION ---
+    * --- CONCERNE ACCUEIL PRESENTATION ---
     */
     #container-img-bachelor, #container-hobbies {
         grid-column: initial!important;
@@ -314,7 +313,23 @@ body {
     #container-objectif {
         border: 0!important;
     }
+    /* ------*/
+    
+
+
     /*
-    * ------
+    * --- CONCERNE PROJETS  ---
     */
+    #container-content-projets {
+        flex-direction: column-reverse;
+    }
+
+    #container-projets {
+        flex-direction: row;
+    }
+
+    #container-backupsentitems {
+        border: 0!important;
+    }
+    /* ------ */
 }

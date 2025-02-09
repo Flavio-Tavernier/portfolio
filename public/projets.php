@@ -26,9 +26,9 @@ include "header.php";
 
     
 
-    <div class="container-content">
+    <div id="container-content-projets" class="container-content">
 
-        <div id="container-projets">
+        <div id="container-projets" class="container-content">
 
             <div class="nav-bar-content">
                 <!-- <a id="btn-php" class="btn-rotated btn-navbars padd-increased"><p>PHP</p></a> -->
@@ -38,13 +38,11 @@ include "header.php";
                 <a id="btn-python" class="btn-rotated btn-navbars"><p>Python</p></a>
             </div>
 
-
             <div class="borderline-content">
                 <div class="wrapper">
  
                 </div>
             </div>
-            
         </div>
 
         <div id="container-donut-projets">
