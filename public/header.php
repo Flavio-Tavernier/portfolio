@@ -15,12 +15,7 @@
 </head>
 <body>
     <div id="nav-bar">
-        <!-- <a class="btn-navbars btn-top-navbar" href="index" id="btn-home">Accueil</a> -->
         <a class="btn-navbars btn-top-navbar" href="accueil" id="btn-accueil">Accueil</a>
-        <a class="btn-navbars btn-top-navbar" href="projets" id="btn-projets">Projets</a>
-        <!-- <a class="btn-navbars btn-top-navbar" href="aPropos" id="btn-apropos">Qui suis-je</a> -->
-        <a class="btn-navbars btn-top-navbar" href="veille" id="btn-veille">Veille</a>
-        <a class="btn-navbars btn-top-navbar" href="contact" id="btn-contact">Contact</a>
     </div>
 
 

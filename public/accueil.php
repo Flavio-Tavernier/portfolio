@@ -25,7 +25,6 @@ include "header.php";
             <a id="btn-presentation" class="btn-rotated btn-navbars padd-increased"><p>Présentation</p></a>
             <a id="btn-scolaire" class="btn-rotated btn-navbars"><p>Scolaire</p></a>
             <a id="btn-professionnel" class="btn-rotated btn-navbars"><p>Professionnel</p></a>
-            <a id="btn-competences" class="btn-rotated btn-navbars"><p>Compétences</p></a>
         </div>
 
 
