@@ -106,7 +106,7 @@ body {
 
 .container-content {
     min-width: 70%;
-    height: 580px;
+    height: 650px;
     display: flex;
     justify-content: start;
     align-items: center;
@@ -259,4 +259,62 @@ body {
 
     display: flex;
     align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+* RESPONSIVE POUR TABLET (PEUT ETRE A DEPLACER ?)
+*/
+
+@media screen and (min-width: 780px) and (max-width: 1023px) {
+    .wrapper {
+        grid-template-columns: repeat(1, auto)!important;
+        grid-template-rows: auto!important;
+        grid-auto-flow: initial!important;
+    }
+
+    .container-content {
+        height: auto!important;
+    }
+
+    .accueil-containers-presentation {
+        border: 0!important; 
+        border-bottom: 2px dotted #ffde59!important;
+    }
+
+    .nav-bar-content {
+        height: 600px;
+    }
+
+
+
+    /*
+    * --- CONCERNE PRESENTATION ---
+    */
+    #container-img-bachelor, #container-hobbies {
+        grid-column: initial!important;
+        grid-row: initial!important;
+    }
+
+    #container-objectif {
+        border: 0!important;
+    }
+    /*
+    * ------
+    */
 }

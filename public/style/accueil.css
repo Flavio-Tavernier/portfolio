@@ -9,14 +9,12 @@
     width: 100%;
     min-height: 89%;
     display: grid;
-    grid-template-rows: repeat(2, 50%);
-    grid-template-columns: repeat(5, 1fr); TODO:Remettre a 3 quand fini
+    /* grid-template-rows: repeat(1, 50%);
+    grid-template-columns: repeat(5, 1fr);  */
+    /* TODO:Remettre a 3 quand fini */
 }
 
 
-.container-content {
-    height: 650px !important;
-}
 
 .card--display {
     height: 100% !important;
