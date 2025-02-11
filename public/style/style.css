@@ -47,6 +47,12 @@ body {
 }
 
 
+
+
+
+
+
+
 .titre-onglets {
     color: #ffde59;
     font-family: "IBM Plex Mono", monospace;
@@ -55,9 +61,6 @@ body {
     font-style: normal;
     margin-bottom: 20px;
 }
-
-
-
 
 
 #content {
@@ -191,7 +194,9 @@ body {
     border-right: 1px solid white !important;
 }
 
-
+#nav-bar-smartphone {
+    display: none;
+}
 
 
 
@@ -285,6 +290,7 @@ body {
         grid-template-columns: repeat(1, auto)!important;
         grid-template-rows: auto!important;
         grid-auto-flow: initial!important;
+        overflow-x: initial!important;
     }
 
     .container-content {
@@ -342,39 +348,34 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* 
 * RESPONSIVE POUR TELEPHONE (PEUT ETRE A DEPLACER ?)
 */
 @media screen and (max-width: 767px) {
-    #nav-bar {
-        display: none;
-    }
     body {
         margin: 0;
         padding: 10px;
     }
 
+    #nav-bar {
+        display: none;
+    }
+
+    #nav-bar-underline {
+        display: none;
+    }
+
+    #nav-bar-smartphone {
+        display: block;
+        margin-bottom: 50px;
+    }
+
+
     .wrapper {
         grid-template-columns: repeat(1, auto)!important;
         grid-template-rows: auto!important;
         grid-auto-flow: initial!important;
+        overflow-x: initial!important;
     }
 
     .container-content {
@@ -392,17 +393,18 @@ body {
         height: 600px;
     }
 
-
-
-
-    .accueil-titre-containers > p, .pro-container-texte-titre > p {
-        font-size: 30px!important;
-    }
-
     .titre-onglets {
         font-size: 50px!important;
     }
 
+
+
+    /*
+    * --- CONCERNE ACCUEIL  ---
+    */
+    .accueil-titre-containers > p, .pro-container-texte-titre > p {
+        font-size: 30px!important;
+    }
 
     /*
     * --- CONCERNE ACCUEIL PRESENTATION ---
@@ -439,3 +441,97 @@ body {
     }
     /* ------ */
 }
+
+
+/* NAVBAR SMARTPHONE */
+  #menu {
+    z-index: 2;
+  }
+  
+  #menu-bar {
+    width: 45px;
+    height: 40px;
+    margin: 30px 0 20px 20px;
+    cursor: pointer;
+  }
+  
+  .bar {
+    height: 5px;
+    width: 100%;
+    background-color: #FFDE59;
+    display: block;
+    border-radius: 5px;
+    transition: 0.3s ease;
+  }
+  
+  #bar1 {
+    transform: translateY(-4px);
+  }
+  
+  #bar3 {
+    transform: translateY(4px);
+  }
+  
+  .nav {
+    transition: 0.3s ease;
+    display: none;
+  }
+  
+  .nav ul {
+    padding: 0 22px;
+  }
+  
+  .nav li {
+    list-style: none;
+    padding: 12px 0;
+  }
+  
+  .nav li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  .nav li a:hover {
+    font-weight: bold;
+  }
+  
+  .menu-bg, #menu {
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+  
+  .menu-bg {
+    z-index: 1;
+    width: 0;
+    height: 0;
+    background: #FFDE59;
+    border-radius: 12px;
+    transition: 0.3s ease;
+  }
+  
+  .change {
+    display: block;
+  }
+  
+  .change .bar {
+    background-color: white;
+  }
+  
+  .change #bar1 {
+    transform: translateY(4px) rotateZ(-45deg);
+  }
+  
+  .change #bar2 {
+    opacity: 0;
+  }
+  
+  .change #bar3 {
+    transform: translateY(-6px) rotateZ(45deg);
+  }
+  
+  .change-bg {
+    width: 150px;
+    height: 320px;
+  }
