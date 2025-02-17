@@ -222,6 +222,11 @@ body {
     margin: auto;
 }
 
+.img-preview {
+    width: 40%;
+    cursor: pointer;
+}
+
 .titre-containers {
     display: flex;
     justify-content: space-around;

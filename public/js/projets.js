@@ -7,6 +7,13 @@ $(function() {
         getContentForCard(langage);
     })
 
+    setTimeout(() => {
+        $(".img-preview").click(function()
+        {
+            let id = $(this).attr("id").slice(4);
+            console.log(id);
+        });
+    }, 1000);
 })
 
 
@@ -26,6 +33,7 @@ function getContentForCard(langage) {
             console.error('Erreur:', error);
         });
 }
+
 
 
   
