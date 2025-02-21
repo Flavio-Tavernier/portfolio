@@ -10,10 +10,19 @@ $(function() {
     setTimeout(() => {
         $(".img-preview").click(function()
         {
-            let id = $(this).attr("id").slice(4);
-            console.log(id);
+            let element = $(this).attr("id").split('-');
+            let projet = element[2];
+            let nbImages = element[3];
+
+            
+            $("#container-popup-img-projet").css("display", "block")
+            getImgForPopup (projet, nbImages)
         });
-    }, 1000);
+
+        $("#btn-fermer-popup-img-projet").click(function() {
+            $("#container-popup-img-projet").css("display", "none")
+        });
+    }, 500);
 })
 
 
@@ -34,6 +43,24 @@ function getContentForCard(langage) {
         });
 }
 
+function getImgForPopup (projet, nbImages) {
+    let carousel = $('.carousel').flickity();
+    carousel.flickity('destroy');
+
+    let balisesImg = "";
+
+    for (let i = 1; i <= nbImages; i++) {
+        balisesImg += `<div class="carousel-cell"><img src="style/images/${projet}/${projet}-${i}.png" class="img-popup" alt=""></div>`;
+    }
+
+
+    // $(".carousel").html("");
+    $(".carousel").html(balisesImg);
+
+    $("#titre-popup-img-projet").html(projet.toUpperCase());
+
+    carousel.flickity();
+}   
 
 
   

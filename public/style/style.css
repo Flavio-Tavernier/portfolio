@@ -111,7 +111,7 @@ body {
     min-width: 70%;
     height: 650px;
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
 }
 
@@ -223,8 +223,14 @@ body {
 }
 
 .img-preview {
-    width: 40%;
+    width: 50%;
     cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: 0.2s ease-in;
+}
+
+.img-preview:hover {
+    width: 55%;
 }
 
 .titre-containers {
@@ -272,7 +278,12 @@ body {
 }
 
 
+.speech-containers-img {
+    display: flex;
+    justify-content: center;
 
+    height: 70%;
+}
 
 
 

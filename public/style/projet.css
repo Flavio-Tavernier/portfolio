@@ -116,3 +116,25 @@
     padding: 0 2.5px 0 2.5px;
     border-right: 1px solid white !important;
 }
+
+
+
+
+.img-popup {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#container-popup-img-projet {
+    display: none;
+    position: absolute;
+    width: 80vw;
+    height: 60vh;
+
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#popup-container-titre {
+    border-bottom: 2px dotted #ffde59;
+}
