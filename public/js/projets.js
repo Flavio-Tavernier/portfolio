@@ -14,13 +14,11 @@ $(function() {
             let projet = element[2];
             let nbImages = element[3];
 
-            
-            $("#container-popup-img-projet").css("display", "block")
-            getImgForPopup (projet, nbImages)
+            getImgForPopup(projet, nbImages)
         });
 
         $("#btn-fermer-popup-img-projet").click(function() {
-            $("#container-popup-img-projet").css("display", "none")
+            $("#container-popup-img-projet").css("display", "none")  
         });
     }, 500);
 })
@@ -44,7 +42,7 @@ function getContentForCard(langage) {
 }
 
 function getImgForPopup (projet, nbImages) {
-    let carousel = $('.carousel').flickity();
+    let carousel = $('.carousel');
     carousel.flickity('destroy');
 
     let balisesImg = "";
@@ -53,12 +51,11 @@ function getImgForPopup (projet, nbImages) {
         balisesImg += `<div class="carousel-cell"><img src="style/images/${projet}/${projet}-${i}.png" class="img-popup" alt=""></div>`;
     }
 
-
-    // $(".carousel").html("");
     $(".carousel").html(balisesImg);
 
     $("#titre-popup-img-projet").html(projet.toUpperCase());
 
+    $("#container-popup-img-projet").css("display", "block");
     carousel.flickity();
 }   
 

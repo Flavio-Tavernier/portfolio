@@ -53,7 +53,7 @@ include "header.php";
             </div>
             <div id="popup-container-img">
                 <div class="carousel" data-flickity='{ "autoPlay": true, "wrapAround": true }'>
-
+                    
                 </div>
             </div>
         </div>
