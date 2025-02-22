@@ -35,7 +35,7 @@
 }
 
 .accueil-titre-containers > p,  .pro-container-texte-titre > p {
-    color: #ffde59;
+    color: #dfc24d;
     font-family: "IBM Plex Mono", monospace;
     font-weight: 700;
     font-size: 40px;
@@ -53,7 +53,7 @@
 .liens {
     color: black;
     text-decoration: underline;
-    text-decoration-color: #ffde59;
+    text-decoration-color: #dfc24d;
     text-decoration-thickness: 2px;
 
     cursor: pointer;
@@ -77,11 +77,11 @@
 }
 
 #arrow-left {
-    border-right: 20px solid #ffde59;
+    border-right: 20px solid #dfc24d;
 }
 
 #arrow-right {
-    border-left: 20px solid #ffde59;
+    border-left: 20px solid #dfc24d;
     margin-right: 1%;
     
     right: 0;
@@ -94,7 +94,7 @@
 
 
 #container-img-bachelor {
-    border-right: 2px dotted #ffde59;
+    border-right: 2px dotted #dfc24d;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -112,7 +112,7 @@
 
 
 #container-qui-suis-je {
-    border-bottom: 2px dotted #ffde59;
+    border-bottom: 2px dotted #dfc24d;
 }
 
 

@@ -32,7 +32,7 @@ include "header.php";
 
             <div class="nav-bar-content">
                 <!-- <a id="btn-php" class="btn-rotated btn-navbars padd-increased"><p>PHP</p></a> -->
-                <a id="btn-html-css-php" class="btn-rotated btn-navbars"><p>HTML/CSS/PHP</p></a>
+                <a id="btn-html-css-php" class="btn-rotated btn-navbars padd-increased"><p>HTML/CSS/PHP</p></a>
                 <a id="btn-java" class="btn-rotated btn-navbars"><p>Java</p></a>
                 <a id="btn-csharp" class="btn-rotated btn-navbars"><p>C#</p></a>
                 <a id="btn-python" class="btn-rotated btn-navbars"><p>Python</p></a>
@@ -53,7 +53,6 @@ include "header.php";
             </div>
             <div id="popup-container-img">
                 <div class="carousel">
-                <!-- <div class="carousel-cell"><img src="style/images/gsb/gsb-1.png" class="img-popup" alt=""></div>` -->
                 </div>
             </div>
         </div>

@@ -51,7 +51,7 @@
   
   .card a:hover {
     transform: translate(-5px, -5px);
-    border-color: #ffde59;
+    border-color: #dfc24d;
   }
   
   .card a:hover .card--display {

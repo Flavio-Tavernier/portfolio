@@ -57,7 +57,6 @@ function getImgForPopup (projet, nbImages) {
     $("#container-popup-img-projet").css("display", "block");
 
     carousel.flickity({
-        // options
         autoPlay: true,
         wrapAround: true, 
         imagesLoaded: true,
