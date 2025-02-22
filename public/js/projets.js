@@ -42,7 +42,7 @@ function getContentForCard(langage) {
 }
 
 function getImgForPopup (projet, nbImages) {
-    let carousel = $('.carousel');
+    let carousel = $('.carousel').flickity();
     carousel.flickity('destroy');
 
     let balisesImg = "";
@@ -54,9 +54,14 @@ function getImgForPopup (projet, nbImages) {
     $(".carousel").html(balisesImg);
 
     $("#titre-popup-img-projet").html(projet.toUpperCase());
-
     $("#container-popup-img-projet").css("display", "block");
-    carousel.flickity();
+
+    carousel.flickity({
+        // options
+        autoPlay: true,
+        wrapAround: true, 
+        imagesLoaded: true,
+    });
 }   
 
 

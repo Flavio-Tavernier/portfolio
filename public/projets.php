@@ -52,8 +52,8 @@ include "header.php";
                 <button id="btn-fermer-popup-img-projet">FERMER</button>
             </div>
             <div id="popup-container-img">
-                <div class="carousel" data-flickity='{ "autoPlay": true, "wrapAround": true }'>
-                    
+                <div class="carousel">
+                <!-- <div class="carousel-cell"><img src="style/images/gsb/gsb-1.png" class="img-popup" alt=""></div>` -->
                 </div>
             </div>
         </div>
