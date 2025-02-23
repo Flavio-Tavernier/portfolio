@@ -54,7 +54,7 @@
 
 #container-projets {
     min-width: 70%;
-    height: 580px;
+    height: auto;
     display: flex;
     justify-content: start;
     align-items: center;
@@ -122,14 +122,13 @@
 
 .img-popup {
     min-width: 100%;
-    min-height: 100%;
 }
 
 #container-popup-img-projet {
     display: none;
     position: absolute;
-    width: 800px;
-    height: 530px;
+    width: 80%;
+    height: auto;
 
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -138,6 +137,8 @@
 }
 
 #popup-container-titre {
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-bottom: 2px dotted #dfc24d;
 }
 
