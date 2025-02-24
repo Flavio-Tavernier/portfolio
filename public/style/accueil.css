@@ -185,6 +185,13 @@
     border: 0;
 }
 
+.img-logos-langages {
+    width: 5%;
+}
+
+#container-radar-langages {
+    max-width: 250px;
+}
 
 
 

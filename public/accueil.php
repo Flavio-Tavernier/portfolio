@@ -40,6 +40,10 @@ include "header.php";
 
 <script src="js/accueil.js"></script>
 <script src="js/commun.js"></script>
+
+<!-- RADAR CHART COMPETENCES -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="js/radarChart.js"></script>
 </body>
 </html>
 

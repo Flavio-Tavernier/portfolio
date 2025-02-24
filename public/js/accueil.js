@@ -1,10 +1,21 @@
 $(function() {
-    getContentForCard("presentation");
+    getContentForCard("competences");
 
     $(".btn-rotated").click(function () {
         let section = $(this).attr("id").slice(4);
         getContentForCard(section);   
     }) 
+
+
+    $("#btn-competences").click(function() {
+        setTimeout(() => {
+            initializeRadarChart()
+        }, 500);  
+    })
+
+
+    
+    
 })
 
 
