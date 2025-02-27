@@ -53,11 +53,12 @@
 
 
 #container-projets {
-    min-width: 70%;
+    max-width: 100%;
     height: auto;
     display: flex;
     justify-content: start;
     align-items: center;
+    flex-direction: row;
 }
 
 #nav-bar-projets {

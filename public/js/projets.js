@@ -4,6 +4,7 @@ $(function() {
 
     $(".btn-rotated").click(function () {
         let langage = $(this).attr("id").slice(4);
+
         getContentForCard(langage);
     })
 

@@ -25,13 +25,22 @@ include "header.php";
 
 
     
+        
 
     <div id="container-content-projets" class="container-content">
 
+    
+        <div class="nav-bar-content-top">
+            <a id="btn-html-css-php" class="btn-contexte btn-navbars padd-increased-top">Personnel</a>
+            <a id="btn-java" class="btn-contexte btn-navbars">Professionnel</a>
+            <a id="btn-csharp" class="btn-contexte btn-navbars">Scolaire</a>
+        </div>
+
         <div id="container-projets" class="container-content">
 
+        
+
             <div class="nav-bar-content">
-                <!-- <a id="btn-php" class="btn-rotated btn-navbars padd-increased"><p>PHP</p></a> -->
                 <a id="btn-html-css-php" class="btn-rotated btn-navbars padd-increased"><p>HTML/CSS/PHP</p></a>
                 <a id="btn-java" class="btn-rotated btn-navbars"><p>Java</p></a>
                 <a id="btn-csharp" class="btn-rotated btn-navbars"><p>C#</p></a>
@@ -56,16 +65,9 @@ include "header.php";
                 </div>
             </div>
         </div>
-
-        <!-- <div id="container-donut-projets">
-            <div id="empeche-survol-souris-donut"></div>
-            <canvas id="chart"></canvas>
-        </div> -->
     </div>
 
 
-<!-- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script src="js/chart.js"></script> -->
 <script src="js/projets.js"></script>
 <script src="js/commun.js"></script>
 <script src="js/bibliotheques/flickity/flickity.pkgd.min.js"></script>
