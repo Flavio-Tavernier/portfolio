@@ -31,16 +31,16 @@ include "header.php";
 
     
         <div class="nav-bar-content-top">
-            <a id="btn-html-css-php" class="btn-contexte btn-navbars padd-increased-top">Personnel</a>
-            <a id="btn-java" class="btn-contexte btn-navbars">Professionnel</a>
-            <a id="btn-csharp" class="btn-contexte btn-navbars">Scolaire</a>
+            <a id="btn-personnel" class="btn-contexte btn-navbars padd-increased-top">Personnel</a>
+            <a id="btn-professionnel" class="btn-contexte btn-navbars">Professionnel</a>
+            <a id="btn-scolaire" class="btn-contexte btn-navbars">Scolaire</a>
         </div>
 
         <div id="container-projets" class="container-content">
 
         
 
-            <div class="nav-bar-content">
+            <div class="nav-bar-content-left">
                 <a id="btn-html-css-php" class="btn-rotated btn-navbars padd-increased"><p>HTML/CSS/PHP</p></a>
                 <a id="btn-java" class="btn-rotated btn-navbars"><p>Java</p></a>
                 <a id="btn-csharp" class="btn-rotated btn-navbars"><p>C#</p></a>

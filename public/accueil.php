@@ -21,7 +21,7 @@ include "header.php";
 
     <div class="container-content">
 
-        <div class="nav-bar-content">
+        <div class="nav-bar-content-left">
             <a id="btn-presentation" class="btn-rotated btn-navbars padd-increased"><p>Présentation</p></a>
             <a id="btn-scolaire" class="btn-rotated btn-navbars"><p>Scolaire</p></a>
             <a id="btn-professionnel" class="btn-rotated btn-navbars"><p>Professionnel</p></a>

@@ -1,12 +1,18 @@
 $(function() {
 
-    getContentForCard("html-css-php");
+    setContexte("personnel");
+    getContentForCard("/personnel/html-css-php");
+    
 
-    $(".btn-rotated").click(function () {
-        let langage = $(this).attr("id").slice(4);
 
-        getContentForCard(langage);
-    })
+    $(".btn-contexte").click(function() {
+        let contexte = $(this).attr("id").slice(4);
+
+        setContexte(contexte);
+    });
+
+
+    
 
     setTimeout(() => {
         $(".img-preview").click(function()
@@ -24,8 +30,46 @@ $(function() {
     }, 500);
 })
 
+function setContexte(contexte) {
+    let contentNavBar = "";
+
+    switch (contexte) {
+        case 'personnel':
+            contentNavBar = `
+                <a id="btn-/personnel/html-css-php" class="btn-rotated btn-navbars padd-increased"><p>HTML/CSS/PHP</p></a>
+                <a id="btn-/personnel/python" class="btn-rotated btn-navbars"><p>Python</p></a>`;        
+            break;
+        case 'professionnel':
+            contentNavBar = `
+                <a id="btn-/professionnel/html-css-php" class="btn-rotated btn-navbars padd-increased"><p>HTML/CSS/PHP</p></a>`;        
+            break;
+        case 'scolaire':
+            contentNavBar = `
+                <a id="btn-/scolaire/html-css-php" class="btn-rotated btn-navbars padd-increased"><p>HTML/CSS/PHP</p></a>
+                <a id="btn-/scolaire/java" class="btn-rotated btn-navbars"><p>Java</p></a>
+                <a id="btn-/scolaire/csharp" class="btn-rotated btn-navbars"><p>C#</p></a>
+                <a id="btn-/scolaire/python" class="btn-rotated btn-navbars"><p>Python</p></a>`;        
+            break;
+        default:
+            contentNavBar = `
+                <a><p>QUE FAIS-TU LÀ ?</p></a>`;  
+            break;
+    }
+    $(".nav-bar-content-left").html(contentNavBar);
+    // TODO: REMETTRE LES EVENTS LISTENER
+
+    $(".btn-rotated").click(function () {
+        let langage = $(this).attr("id").slice(4);
+
+        getContentForCard(langage);
+    })
+    
+}
+
 
 function getContentForCard(langage) {
+    console.log(langage);
+    
     fetch('langages_projets\\' + langage + '.html')
         .then(response => {
             if (!response.ok) {
