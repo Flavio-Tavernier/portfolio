@@ -187,7 +187,7 @@ body {
 
 .padd-increased-top {
     padding-top: 15px!important;
-    border-bottom: white!important;
+    border-bottom: 1px solid white!important;
     z-index: 1!important;
 }
 
@@ -366,6 +366,9 @@ body {
 
     .nav-bar-content-left {
         height: 600px;
+        
+        align-self: start;
+        margin-top: 40px;
     }
 
 
@@ -464,6 +467,9 @@ body {
     .nav-bar-content-left {
         width: 5%;
         height: 600px;
+
+        align-self: start;
+        margin-top: 40px;
     }
 
     .titre-onglets {

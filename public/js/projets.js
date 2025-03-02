@@ -1,33 +1,24 @@
 $(function() {
 
     setContexte("personnel");
-    getContentForCard("/personnel/html-css-php");
-    
-
 
     $(".btn-contexte").click(function() {
         let contexte = $(this).attr("id").slice(4);
 
         setContexte(contexte);
+
     });
 
 
+    $(".btn-contexte").each(function () {
+        $(this).click(function () {
+            $(".btn-contexte").each(function () {
+                $(this).removeClass("padd-increased-top")
+            }) 
     
-
-    setTimeout(() => {
-        $(".img-preview").click(function()
-        {
-            let element = $(this).attr("id").split('-');
-            let projet = element[2];
-            let nbImages = element[3];
-
-            getImgForPopup(projet, nbImages)
-        });
-
-        $("#btn-fermer-popup-img-projet").click(function() {
-            $("#container-popup-img-projet").css("display", "none")  
-        });
-    }, 500);
+            $(this).addClass("padd-increased-top");
+        })
+    }) 
 })
 
 function setContexte(contexte) {
@@ -56,20 +47,44 @@ function setContexte(contexte) {
             break;
     }
     $(".nav-bar-content-left").html(contentNavBar);
-    // TODO: REMETTRE LES EVENTS LISTENER
+
+    getContentForCard(`/${contexte}/html-css-php`);
 
     $(".btn-rotated").click(function () {
         let langage = $(this).attr("id").slice(4);
 
         getContentForCard(langage);
     })
+
+    $(".btn-rotated").each(function () {
+        $(this).click(function () {
+            $(".btn-rotated").each(function () {
+                $(this).removeClass("padd-increased")
+            }) 
     
+            $(this).addClass("padd-increased");
+        })
+    }) 
+    
+
+    setTimeout(() => {
+        $(".img-preview").click(function()
+        {
+            let element = $(this).attr("id").split('-');
+            let projet = element[2];
+            let nbImages = element[3];
+
+            getImgForPopup(projet, nbImages)
+        });
+
+        $("#btn-fermer-popup-img-projet").click(function() {
+            $("#container-popup-img-projet").css("display", "none")  
+        });
+    }, 500);
 }
 
 
 function getContentForCard(langage) {
-    console.log(langage);
-    
     fetch('langages_projets\\' + langage + '.html')
         .then(response => {
             if (!response.ok) {

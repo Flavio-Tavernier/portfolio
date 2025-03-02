@@ -67,7 +67,6 @@ include "header.php";
         </div>
     </div>
 
-
 <script src="js/projets.js"></script>
 <script src="js/commun.js"></script>
 <script src="js/bibliotheques/flickity/flickity.pkgd.min.js"></script>
