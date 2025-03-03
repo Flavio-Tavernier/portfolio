@@ -29,11 +29,13 @@ include "header.php";
 
     <div id="container-content-projets" class="container-content">
 
-    
         <div class="nav-bar-content-top">
-            <a id="btn-personnel" class="btn-contexte btn-navbars padd-increased-top">Personnel</a>
-            <a id="btn-professionnel" class="btn-contexte btn-navbars">Professionnel</a>
-            <a id="btn-scolaire" class="btn-contexte btn-navbars">Scolaire</a>
+            <!-- https://www.flaticon.com/fr/auteurs/christ-design -->
+            <a id="btn-personnel" class="btn-contexte btn-navbars padd-increased-top"><img class="logo-nav-bar-projets" src="style/logosNavBarProjets/logoHome.png" alt=""></a>
+            <!-- https://www.flaticon.com/fr/auteurs/najmunnahar -->
+            <a id="btn-professionnel" class="btn-contexte btn-navbars"><img class="logo-nav-bar-projets" src="style/logosNavBarProjets/logoMallette.png" alt=""></a>
+            <!-- https://www.flaticon.com/fr/auteurs/those-icons -->
+            <a id="btn-scolaire" class="btn-contexte btn-navbars"><img class="logo-nav-bar-projets" src="style/logosNavBarProjets/logoDiplome.png" alt=""></a>
         </div>
 
         <div id="container-projets" class="container-content">

@@ -27,14 +27,14 @@ function setContexte(contexte) {
     switch (contexte) {
         case 'personnel':
             contentNavBar = `
-                <a id="btn-/personnel/html-css-php" class="btn-rotated btn-navbars padd-increased"><p>HTML/CSS/PHP</p></a>
-                <a id="btn-/personnel/python" class="btn-rotated btn-navbars"><p>Python</p></a>`;   
+                <a id="btn-/personnel/html-css-php" class="btn-rotated btn-navbars padd-increased"><p>HTML/CSS/PHP</p></a>`;   
                 
                 $(".nav-bar-content-left").attr("id", "nav-bar-personnel");
             break;
         case 'professionnel':
             contentNavBar = `
-                <a id="btn-/professionnel/html-css-php" class="btn-rotated btn-navbars padd-increased"><p>HTML/CSS/PHP</p></a>`;      
+                <a id="btn-/professionnel/html-css-php" class="btn-rotated btn-navbars padd-increased"><p>HTML/CSS/PHP</p></a>
+                <a id="btn-/professionnel/python" class="btn-rotated btn-navbars"><p>Python</p></a>`;      
                 
                 $(".nav-bar-content-left").attr("id", "nav-bar-professionnel");
             break;

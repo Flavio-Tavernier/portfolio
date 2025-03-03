@@ -159,8 +159,10 @@ body {
     display: flex;
     flex-direction: row;
     align-items: end;
+    justify-content: center;
 
     min-height: 47px;
+    width: 50%;
 }
 
 .nav-bar-content-top > a {
@@ -182,7 +184,7 @@ body {
 }
 
 .nav-bar-content-top > a:hover {
-    padding-top: 15px!important;
+    padding-top: 15px;
 }
 
 .padd-increased-top {
@@ -194,10 +196,10 @@ body {
 
 
 #nav-bar-personnel {
-    height: 300px;
+    height: 150px;
 }
 #nav-bar-professionnel {
-    height: 150px;
+    height: 300px;
 }
 
 .nav-bar-content-left {
@@ -303,7 +305,7 @@ body {
     color: #dfc24d;
     font-family: "IBM Plex Mono", monospace;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 35px;
     font-style: normal;
     margin: 0;
 }
@@ -369,10 +371,15 @@ body {
         height: auto!important;
     }
 
-    .accueil-containers-presentation, .containers-projets {
+    .accueil-containers-presentatio, .containers-projets {
         border: 0!important; 
         border-bottom: 2px dotted #dfc24d!important;
     }
+
+    .containers-projets {
+        min-height: 650px;
+    }
+    
 
     .nav-bar-content-left {
         height: 600px;
@@ -418,6 +425,10 @@ body {
         transform: translate(1.5%, -50%);
 
         /* width: 600px!important; */
+    }
+
+    .nav-bar-content-top {
+        margin-bottom: -1.5px;
     }
     /* ------ */
 
@@ -474,8 +485,12 @@ body {
         border-bottom: 2px dotted #dfc24d!important;
     }
 
+    .containers-projets {
+        min-height: 650px;
+    }
+
     .nav-bar-content-left {
-        width: 5%;
+        width: 10%;
         height: 600px;
 
         align-self: start;
@@ -539,6 +554,19 @@ body {
 
     .img-popup {
         min-height: auto!important;
+    }
+
+
+    .nav-bar-content-top {
+        margin-bottom: -1.5px;
+    }
+
+    .nav-bar-content-top > a {
+        padding: 5px 15px 5px 15px;
+    }
+
+    .padd-increased-top {
+        padding-top: 10px!important;
     }
     /* ------ */
 }
