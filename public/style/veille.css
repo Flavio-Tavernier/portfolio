@@ -90,3 +90,12 @@
     padding: 0 2.5px 0 2.5px;
     border-right: 1px solid white !important;
 }
+
+
+#nav-bar-left-veille {
+    height: 150px;
+}
+
+#container-googleactualites {
+    border: 0;
+}

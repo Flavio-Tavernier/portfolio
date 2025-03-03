@@ -22,9 +22,9 @@ include "header.php";
 
     <div class="container-content">
 
-        <div class="nav-bar-content-left">
+        <div class="nav-bar-content-left" id="nav-bar-left-veille">
             <a id="btn-informatique" class="btn-rotated btn-navbars padd-increased"><p>Informatique</p></a>
-            <a id="btn-aviation" class="btn-rotated btn-navbars"><p>Aviation</p></a>
+            <!-- <a id="btn-aviation" class="btn-rotated btn-navbars"><p>Aviation</p></a> -->
         </div>
 
 
