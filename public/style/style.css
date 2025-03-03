@@ -193,6 +193,13 @@ body {
 
 
 
+#nav-bar-personnel {
+    height: 300px;
+}
+#nav-bar-professionnel {
+    height: 150px;
+}
+
 .nav-bar-content-left {
     display: flex;
     flex-direction: column;
@@ -200,6 +207,9 @@ body {
     width: 3%;
     height: 540px;
     z-index: 1;
+
+    align-self: start;
+    margin-top: 40px;
 }
 
 .nav-bar-content-left > a {
