@@ -73,20 +73,7 @@ function setContexte(contexte) {
     }) 
     
 
-    setTimeout(() => {
-        $(".img-preview").click(function()
-        {
-            let element = $(this).attr("id").split('-');
-            let projet = element[2];
-            let nbImages = element[3];
-
-            getImgForPopup(projet, nbImages)
-        });
-
-        $("#btn-fermer-popup-img-projet").click(function() {
-            $("#container-popup-img-projet").css("display", "none")  
-        });
-    }, 500);
+    
 }
 
 
@@ -105,6 +92,22 @@ function getContentForCard(langage) {
         .catch(error => {
             console.error('Erreur:', error);
         });
+
+
+        setTimeout(() => {
+            $(".img-preview").click(function()
+            {
+                let element = $(this).attr("id").split('-');
+                let projet = element[2];
+                let nbImages = element[3];
+    
+                getImgForPopup(projet, nbImages)
+            });
+    
+            $("#btn-fermer-popup-img-projet").click(function() {
+                $("#container-popup-img-projet").css("display", "none")  
+            });
+        }, 500);
 }
 
 function getImgForPopup (projet, nbImages) {

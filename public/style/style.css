@@ -292,7 +292,7 @@ body {
 .titre-containers {
     display: flex;
     justify-content: space-around;
-    height: 20%;
+    height: 8%;
     width: 100%;
     display: flex;
     align-items: center;
@@ -326,12 +326,20 @@ body {
     height: 20%;
 }
 
+
 .speech-containers-p {
     height: 60%;
 
     display: flex;
     align-items: center;
+    /* flex-direction: column; */
 }
+
+.titre-speech-containers {
+    font-size: 20px;
+    font-weight: bold;
+}
+
 
 
 .speech-containers-img {
@@ -574,7 +582,7 @@ body {
 
 /* NAVBAR SMARTPHONE */
   #menu {
-    z-index: 2;
+    z-index: 101;
   }
   
   #menu-bar {
@@ -632,7 +640,7 @@ body {
   }
   
   .menu-bg {
-    z-index: 1;
+    z-index: 100;
     width: 0;
     height: 0;
     background: #dfc24d;

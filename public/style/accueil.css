@@ -199,12 +199,18 @@
     justify-content: space-evenly;
 }
 
-#container-langages, #container-logiciels{
+#container-langages, #container-frameworks, #container-bdd {
     border-bottom: 2px dotted #dfc24d;
 }
 
+#container-bdd {
+    border-right: 0;
+}
 
 
+#logo-oracle, #logo-mysql {
+    width: 100px;
+}
 
 
 

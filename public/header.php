@@ -18,7 +18,7 @@
         <a class="btn-navbars btn-top-navbar" href="accueil.php" id="btn-accueil">Accueil</a>
         <a class="btn-navbars btn-top-navbar" href="projets.php" id="btn-projets">Projets</a>
         <a class="btn-navbars btn-top-navbar" href="veille.php" id="btn-veille">Veille</a>
-        <a class="btn-navbars btn-top-navbar" href="contact.php" id="btn-contact">Contact</a>
+        <!-- <a class="btn-navbars btn-top-navbar" href="contact.php" id="btn-contact">Contact</a> -->
     </div>
 
     <div id="nav-bar-smartphone">
@@ -33,7 +33,7 @@
                 <li><a href="accueil.php">Accueil</a></li>
                 <li><a href="projets.php">Projets</a></li>
                 <li><a href="veille.php">Veille</a></li>
-                <li><a href="contact.php">Contact</a></li>
+                <!-- <li><a href="contact.php">Contact</a></li> -->
                 </ul>
             </nav> 
         </div>

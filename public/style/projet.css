@@ -6,6 +6,7 @@
 
 
 .wrapper {
+    width: 100%;
     min-height: 89%;
     display: flex;
     overflow-x: auto;
@@ -143,3 +144,8 @@
     background-color: #dfc24d;
     color: white;
 }
+
+
+
+
+
