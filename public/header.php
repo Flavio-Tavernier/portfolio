@@ -15,7 +15,7 @@
 </head>
 <body>
     <div id="nav-bar">
-        <a class="btn-navbars btn-top-navbar" href="accueil.php" id="btn-accueil">Accueil</a>
+        <a class="btn-navbars btn-top-navbar" href="index.php" id="btn-accueil">Accueil</a>
         <a class="btn-navbars btn-top-navbar" href="projets.php" id="btn-projets">Projets</a>
         <a class="btn-navbars btn-top-navbar" href="veille.php" id="btn-veille">Veille</a>
         <!-- <a class="btn-navbars btn-top-navbar" href="contact.php" id="btn-contact">Contact</a> -->
@@ -30,7 +30,7 @@
             </div>
             <nav class="nav" id="nav">
                 <ul>
-                <li><a href="accueil.php">Accueil</a></li>
+                <li><a href="index.php">Accueil</a></li>
                 <li><a href="projets.php">Projets</a></li>
                 <li><a href="veille.php">Veille</a></li>
                 <!-- <li><a href="contact.php">Contact</a></li> -->
