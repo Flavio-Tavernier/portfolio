@@ -15,10 +15,10 @@ include "header.php";
 </head>
 <body>
     <div id="titre-accueil" class="titre-onglets">
-        ACCUEIL
+        FLAVIO TAVERNIER
     </div>
     
-
+ 
     <div class="container-content">
 
         <div class="nav-bar-content-left">
