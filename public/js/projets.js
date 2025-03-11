@@ -1,6 +1,6 @@
 $(function() {
 
-    setContexte("personnel");
+    setContexte("professionnel");
 
     $(".btn-contexte").click(function() {
         let contexte = $(this).attr("id").slice(4);
