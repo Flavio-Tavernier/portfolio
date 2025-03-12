@@ -4,7 +4,7 @@
 }
 
 body {
-    margin: 20px 50px 0 50px;
+    margin: 10px 50px 0 50px;
     padding: 0;
 }
 
@@ -69,7 +69,8 @@ body {
 }
 
 #footer-bar {
-    border-top: 1px solid black;    
+    border-top: 1px solid black;
+    width: 100%;    
 }
 
 

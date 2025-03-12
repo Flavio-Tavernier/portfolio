@@ -20,7 +20,7 @@
 
         </div>
 
-        Tous droits réservés Flavio TAVERNIER ©
+        Tous droits réservés Flavio TAVERNIER © flavio.tavernier2@gmail.com
     </div>
 
 </body>
