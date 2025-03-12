@@ -59,7 +59,7 @@ include "header.php";
 
         <div id="container-popup-img-projet">
             <div id="popup-container-titre" class="titre-containers">
-                <p id="titre-popup-img-projet">GSB</p>
+                <p id="titre-popup-img-projet"></p>
                 <button id="btn-fermer-popup-img-projet">FERMER</button>
             </div>
             <div id="popup-container-img">

@@ -146,6 +146,22 @@
     color: white;
 }
 
+#titre-popup-img-projet {
+    font-size: 25px;
+}
+
+
+
+
+
+
+.speech-containers-projets-sous-titre {
+    height: auto;
+}
+
+.speech-containers-projets-p  {
+    height: auto;
+}
 
 
 .speech-containers-li {
@@ -153,3 +169,15 @@
     justify-content: stretch;
 }
 
+.container-referentiel {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.container-technologies {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

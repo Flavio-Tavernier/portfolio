@@ -292,7 +292,7 @@ body {
 .titre-containers {
     display: flex;
     justify-content: space-around;
-    height: 8%;
+    height: 5%;
     width: 100%;
     display: flex;
     align-items: center;
@@ -347,7 +347,7 @@ body {
     justify-content: center;
     align-self: center;
 
-    height: 200px;
+    /* height: 45%; */
     width: 200px;
 }
 
@@ -355,7 +355,9 @@ body {
 
 
 
-
+.bold-texte {
+    font-weight: bold;
+}
 
 
 
@@ -423,7 +425,7 @@ body {
         flex-direction: row;
     }
 
-    #container-backupsentitems {
+    .no-border-bottom {
         border: 0!important;
     }
 
@@ -544,7 +546,7 @@ body {
         flex-direction: row;
     }
 
-    #container-backupsentitems {
+    .no-border-bottom {
         border: 0!important;
     }
     
