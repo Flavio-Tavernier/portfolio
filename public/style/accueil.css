@@ -223,9 +223,7 @@
     max-width: initial!important;
 }
 
-
 #os-chart, #tools-chart {
-    /* height: 225px!important; */
     width: 400px;
 }
 

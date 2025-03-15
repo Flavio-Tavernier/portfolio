@@ -417,10 +417,6 @@ body {
     /*
     * --- CONCERNE PROJETS  ---
     */
-    #container-content-projets {
-        /* flex-direction: column-reverse; */
-    }
-
     #container-projets {
         flex-direction: row;
     }
