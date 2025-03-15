@@ -44,6 +44,8 @@ include "header.php";
 <!-- RADAR CHART COMPETENCES -->
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script src="js/radarChart.js"></script>
+<script src="js/pieCharts.js"></script>
+<script src="js/barCharts.js"></script>
 </body>
 </html>
 

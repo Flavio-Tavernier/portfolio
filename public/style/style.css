@@ -26,7 +26,6 @@ body {
     border: 1px solid #dfc24d;
     border-radius: 0.3rem 0.3rem 0 0;
     text-decoration: none;
-    color: #dfc24d;
     font-family: "IBM Plex Mono", monospace;
     font-weight: 400;
     font-style: normal;
@@ -177,7 +176,6 @@ body {
     border: 1px solid #dfc24d;
     border-radius: 0.3rem 0.3rem 0 0;
     text-decoration: none;
-    color: #dfc24d;
     font-family: "IBM Plex Mono", monospace;
     font-weight: 400;
     font-style: normal;
@@ -226,7 +224,6 @@ body {
     border: 1px solid #dfc24d;
     border-radius: 0.3rem 0 0 0.3rem;
     text-decoration: none;
-    color: #dfc24d;
     font-family: "IBM Plex Mono", monospace;
     font-weight: 400;
     font-style: normal;
@@ -256,7 +253,9 @@ body {
 }
 
 
-
+.btn-navbars {
+    color: black;
+}
 
 
 
@@ -382,7 +381,7 @@ body {
         height: auto!important;
     }
 
-    .accueil-containers-presentatio, .containers-projets {
+    .accueil-containers-presentation, .containers-projets {
         border: 0!important; 
         border-bottom: 2px dotted #dfc24d!important;
     }
@@ -535,14 +534,17 @@ body {
     /* ------*/
     
 
+    /*
+    * --- CONCERNE ACCUEIL COMPETENCES ---
+    */
+    #os-chart, #tools-chart {
+        width: 225px!important;
+    }
+    /* ------*/
 
     /*
     * --- CONCERNE PROJETS  ---
     */
-    #container-content-projets {
-        /* flex-direction: column-reverse; */
-    }
-
     #container-projets {
         flex-direction: row;
     }

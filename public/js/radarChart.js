@@ -18,11 +18,11 @@ function initializeRadarChart() {
           data: [9.5, 9.5, 9.5, 9.5, 8.5, 7.5, 8.5],
           fill: true,
           backgroundColor: 'rgba(255, 222, 89, 0.2)',
-          borderColor: '#dfc24d',
-          pointBackgroundColor: '#dfc24d',
+          borderColor: '#e9c46a',
+          pointBackgroundColor: '#e9c46a',
           pointBorderColor: '#fff',
           pointHoverBackgroundColor: '#fff',
-          pointHoverBorderColor: '#dfc24d',
+          pointHoverBorderColor: '#e9c46a',
           icons: ['style/logosLangages/logoHtml.png', 'style/logosLangages/logoCss.png', 'style/logosLangages/logoJs.png', 'style/logosLangages/logoPhp.png', 'style/logosLangages/logoJava.png', 'style/logosLangages/logoCsharp.png', 'style/logosLangages/logoPython.png',]
         }]
 
@@ -60,7 +60,7 @@ function initializeRadarChart() {
                 const image = new Image();
                 image.src = data.datasets[0].icons[index];
 
-                ctx.drawImage(image, xCoor - 20, yCoor - 50, 40, 40)
+                ctx.drawImage(image, xCoor - 20, yCoor - 50, 35, 35)
                 ctx.restore();
             });
 

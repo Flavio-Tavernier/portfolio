@@ -10,7 +10,11 @@ $(function() {
     $("#btn-competences").click(function() {
         setTimeout(() => {
             initializeRadarChart()
-        }, 500);  
+            initializeFrameworksChart();
+            initializeDatabasesChart();
+            initializeBarChart();
+            initializeToolsChart();
+        }, 100);  
     })
 
 
