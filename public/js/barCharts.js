@@ -105,7 +105,7 @@ function initializeToolsChart() {
     const myToolsChart = new Chart(ctx, {
         type: 'bar',
         data: {
-            labels: ['VS Code', 'Visual Studio', 'Eclipse', 'DBeaver', 'MySQL Workbench', 'VirtualBox', 'Figma'],
+            labels: ['VS Code','Eclipse', 'Visual Studio', 'Intellij', 'DBeaver', 'MySQL Workbench', 'Figma'],
             datasets: [{
                 label: '% maitrise',
                 data: [80, 70, 50, 50, 70, 60, 40],
@@ -121,8 +121,9 @@ function initializeToolsChart() {
                 borderRadius: 5,
                 images: [
                     'style/logosLogiciels/logoVscode.png',
-                    'style/logosLogiciels/logoVs.png',
                     'style/logosLogiciels/logoEclipse.svg',
+                    'style/logosLogiciels/logoVs.png',
+                    'style/logosLogiciels/logoIntellij.png',
                     'style/logosLogiciels/logoDbeaver.png',
                     'style/logosLogiciels/logoMysqlWorkbench.png',
                     'style/logosLogiciels/logoVbox.png',
