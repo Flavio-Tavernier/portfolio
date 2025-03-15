@@ -90,7 +90,7 @@ function initializeDatabasesChart() {
                 cutout: '0%',
                 hoverOffset: 30,
                 backgroundColor: ['#f4a261', '#e9c46a'], // Couleurs complémentaires
-                image : ['style/logosBdd/logoMySQL.png', 'style/logosBdd/logoOracle2.png']
+                image : ['style/logosBdd/logoMysql.png', 'style/logosBdd/logoOracle.png']
             }]
         },
         options: {
