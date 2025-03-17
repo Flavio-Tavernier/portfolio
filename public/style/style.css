@@ -273,8 +273,9 @@ body {
 
 .logos {
     width: 20%;
-    height: auto;
+    max-width: 100px;
 
+    height: auto;
     margin: auto;
 }
 
@@ -315,17 +316,16 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .speech-containers-details {
     height: 60%;
 }
 
-
-.speech-containers-sous-titre, .speech-containers-durees {
-    height: 30%;
+.speech-containers-li {
+    height: 50%;
 }
-
 
 .speech-containers-p {
     height: 60%;
@@ -399,6 +399,18 @@ body {
     }
 
 
+     /*
+    * --- CONCERNE ACCUEIL ---
+    */
+    .accueil-titre-containers {
+        height: auto!important;
+    }
+
+    .speech-containers-li {
+        height: 75%;
+    }
+    /* ------*/
+
     /*
     * --- CONCERNE ACCUEIL PRESENTATION ---
     */
@@ -411,7 +423,20 @@ body {
         border: 0!important;
     }
     /* ------*/
+
+
+    /*
+    * --- CONCERNE ACCUEIL COMPETENCES ---
+    */
+    #container-os {
+        grid-column: initial!important;
+        grid-row: initial!important;
+    }
     
+    #container-logiciels{
+        grid-column: initial!important;
+    }
+   /* ------*/
 
 
     /*
@@ -512,6 +537,9 @@ body {
     /*
     * --- CONCERNE ACCUEIL  ---
     */
+    .accueil-titre-containers {
+        height: auto!important;
+    }
     .accueil-titre-containers > p, .pro-container-texte-titre > p {
         font-size: 30px!important;
     }
@@ -535,6 +563,15 @@ body {
     */
     #os-chart, #tools-chart {
         width: 225px!important;
+    }
+
+    #container-os {
+        grid-column: initial!important;
+        grid-row: initial!important;
+    }
+    
+    #container-logiciels{
+        grid-column: initial!important;
     }
     /* ------*/
 

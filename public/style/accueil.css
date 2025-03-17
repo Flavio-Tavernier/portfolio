@@ -27,7 +27,7 @@
 }
 
 .accueil-titre-containers {
-    height: 10%;
+    height: 20%;
     width: 100%;
 
     display: flex;
@@ -38,13 +38,14 @@
     color: #dfc24d;
     font-family: "IBM Plex Mono", monospace;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 35px;
     font-style: normal;
     margin: 0;
+    width: 80%;
 }
 
 .speech-containers {
-    height: 90%;
+    height: 80%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -142,8 +143,8 @@
 
 
 .img-hobbies {
-    height: 100%;
     width: 50%;
+    max-width: 300px;
     border-radius: 8px;
 }
 
@@ -207,17 +208,22 @@
     border-bottom: 2px dotted #dfc24d;
 }
 
-#container-bdd {
+#container-logiciels, #container-bdd  {
     border-right: 0;
 }
 
+#container-os {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+#container-logiciels{
+    grid-column: 2 / 4;
+}
 
 #logo-oracle, #logo-mysql {
     width: 100px;
 }
-
-
-
 
 #container-bar-os, #container-bar-tools {
     max-width: initial!important;

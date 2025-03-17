@@ -14,7 +14,7 @@ $(function() {
             initializeDatabasesChart();
             initializeBarChart();
             initializeToolsChart();
-        }, 100);  
+        }, 500);  
     })
 
 

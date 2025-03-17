@@ -126,7 +126,6 @@ function initializeToolsChart() {
                     'style/logosLogiciels/logoIntellij.png',
                     'style/logosLogiciels/logoDbeaver.png',
                     'style/logosLogiciels/logoMysqlWorkbench.png',
-                    'style/logosLogiciels/logoVbox.png',
                     'style/logosLogiciels/logoFigma.png'
                 ]
             }]
